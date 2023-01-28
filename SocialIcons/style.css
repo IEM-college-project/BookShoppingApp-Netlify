@@ -1,0 +1,63 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-Sizing: Border-Box;
+  }
+  body {
+    Display: Flex;
+    Justify-Content: Center;
+    Align-Items: Center;
+    Height: 100vh;
+    Background: #000;
+  }
+  
+  ul {
+    Position: Relative;
+    Display: Flex;
+  }
+  ul li {
+    Position: Relative;
+    List-Style: None;
+    Margin: 0 20px;
+    Cursor: Pointer;
+  }
+  ul li a {
+    Text-Decoration: None;
+  }
+  ul li a .fa-brands {
+    Font-Size: 6em;
+    Color: #222;
+  }
+  Ul Li A::Before {
+    Font-Family: "FontAwesome";
+    Position: Absolute;
+    Top: 0;
+    Left: 0;
+    Font-Size: 6em;
+    Height: 0;
+    Overflow: Hidden;
+    Transition: 0.5s Ease-In-Out;
+  }
+  
+  Ul Li:nth-Child(1) A::Before {
+    Content: "\F16d";
+    Background-Image: Linear-Gradient(45deg, 
+      #F09433 0%,#E6683c 25%,#Dc2743 50%,#Cc2366 75%,
+      #Bc1888 100%);
+    -Webkit-Background-Clip: Text;
+     -Webkit-Text-Fill-Color: Transparent;
+    Border-Bottom: 4px Solid #Dc2743;
+  }
+  Ul Li:nth-Child(2) A::Before {
+    Content: "\F232";
+    Color: #25D366;
+    Border-Bottom: 4px Solid #25D366;
+  }
+  Ul Li:nth-Child(3) A::Before {
+    Content: "\F099";
+    Color: #1DA1F2;
+    Border-Bottom: 4px Solid #1DA1F2;
+  }
+  Ul Li:hover A::Before {
+    Height: 100%;
+  }
