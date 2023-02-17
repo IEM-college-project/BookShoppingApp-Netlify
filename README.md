@@ -1,6 +1,5 @@
 # Getting Started with Create React App
 
-## Here is our [Live-App](https://wormbook.netlify.app)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

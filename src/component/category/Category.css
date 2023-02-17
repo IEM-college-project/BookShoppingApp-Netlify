@@ -1,0 +1,7 @@
+#category-section::scrollbar {
+  display: none;
+}
+
+#category-section::-webkit-scrollbar {
+  display: none;
+}
