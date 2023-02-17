@@ -12,17 +12,17 @@ function Nav() {
 
   return (
     <>
-      <nav className="hidden px-4 py-3 w-full lg:flex items-center gap-4 font-[Roboto] text-white bg-[#131921]">
+      <nav className="hidden sticky top-0 px-4 py-3 w-full lg:flex items-center gap-4 font-[Roboto] text-white bg-[#053680]">
         {/* Brand starts here */}
-        <div className="px-2 nav-hover">
-          <img className="w-24 mt-2" src={logo} alt="logo" />
+        <div className="py-2 px-2 nav-hover">
+          <img className="w-10 mt-0 rounded-full" src={logo} alt="logo" />
         </div>
         {/* Brand ends here */}
 
         {/* Search starts here */}
         <div className="h-10 flex flex-grow rounded">
           <input className="px-2 flex-grow rounded-l border-none outline-none text-base text-[#131921]" type="text" placeholder="Search bookmybook.in" />
-          <span className="w-12 flex justify-center items-center rounded-r cursor-pointer text-[#131921] bg-[#febd69] hover:bg-[#f3a847]">
+          <span className="w-12 flex justify-center items-center rounded-r cursor-pointer text-[#131921] bg-[#e44e80] hover:bg-[#f02278]">
             <i className="fa-solid fa-magnifying-glass" />
           </span>
         </div>
@@ -58,14 +58,14 @@ function Nav() {
             <div className>
               <i className="fa-solid fa-cart-shopping" />
             </div>
-            <p className="mt-3">Cart <span className="absolute top-0.5 left-5 p-1 h-4 flex justify-center items-center rounded-full text-xs text-[#131921] bg-[#febd69]">0</span>
+            <p className="mt-3">Cart <span className="absolute top-0.5 left-5 p-1 h-4 flex justify-center items-center rounded-full text-xs text-[#131921] bg-[#fa6690]">0</span>
             </p>
           </div>
         </div>
         {/* Cart ends here */}
       </nav>
 
-      <nav className="lg:hidden px-4 py-3 w-full flex flex-col gap-2 font-[Roboto] text-white bg-[#131921]">
+      <nav className="lg:hidden sticky top-0 px-4 py-3 w-full flex flex-col gap-2 font-[Roboto] text-white bg-[#053680]">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             {/* Hamburger starts here */}
@@ -78,7 +78,7 @@ function Nav() {
 
             {/* Brand starts here */}
             <div className>
-              <img className="w-20 mt-3" src={logo} alt="logo" />
+              <img className="w-10 mt-0 rounded-full" src={logo} alt="logo" />
             </div>
             {/* Brand ends here */}
           </div>
@@ -96,7 +96,7 @@ function Nav() {
                 <div className>
                   <i className="fa-solid fa-cart-shopping" />
                 </div>
-                <p className="mt-3">Cart <span className="absolute top-0.5 left-5 p-1 h-4 flex justify-center items-center rounded-full text-xs text-[#131921] bg-[#febd69]">0</span>
+                <p className="mt-3">Cart <span className="absolute top-0.5 left-5 p-1 h-4 flex justify-center items-center rounded-full text-xs text-[#131921] bg-[#fa6690]">0</span>
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ function Nav() {
         {/* Search starts here */}
         <div className="h-10 flex flex-grow rounded">
           <input className="px-2 flex-grow rounded-l border-none outline-none text-base text-[#131921]" type="text" placeholder="Search bookmybook.in" />
-          <span className="w-12 flex justify-center items-center rounded-r cursor-pointer text-[#131921] bg-[#febd69] hover:bg-[#f3a847]">
+          <span className="w-12 flex justify-center items-center rounded-r cursor-pointer text-[#131921] bg-[#e44e80] hover:bg-[#f02278]">
             <i className="fa-solid fa-magnifying-glass text-2xl" />
           </span>
         </div>

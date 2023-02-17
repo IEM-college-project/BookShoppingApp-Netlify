@@ -1,10 +1,16 @@
 import React from "react";
-import Nav from "./components/Nav/Nav";
+import Category from "./component/category/Category";
+import Content from "./component/content/Content";
+import Footer from "./component/footer/Footer";
+import Nav from "./component/nav/Nav";
 
 function App() {
   return (
     <>
       <Nav />
+      <Category />
+      <Content />
+      <Footer />
     </>
   );
 }
