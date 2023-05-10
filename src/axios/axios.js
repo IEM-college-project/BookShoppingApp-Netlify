@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const baseAPI = "http://localhost:8888/api";
 // const recommenderAPI = "http://localhost:8000/api";
-const baseAPI = "https://499c-2405-201-8012-3dac-d59d-1990-ccc-313.ngrok-free.app/api";
+const baseAPI = "https://78ae-49-37-8-153.ngrok-free.app/api";
 const recommenderAPI = "https://bookwormfastapi.onrender.com/api";
 
 export const authorizedAxios = (jwt) => axios.create({
